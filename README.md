@@ -27,24 +27,24 @@ The overall effect is minimal as shown on the table below.
 - How does replacing the ninth-grade scores affect the following:
 	- Math and reading scores by grade: Only the math and reading scores for Thomas High School 9th graders have been updated to NaN (Not a Number). 
 	
-	- Math scores by grade
-	![math_scores_grade](Resources/math_scores_grade.png)
+		- Math scores by grade
+		![math_scores_grade](Resources/math_scores_grade.png)
 	
-	- Reading scores by grade
-	![reading_scores_grade](Resources/reading_scores_grade.png)
+		- Reading scores by grade
+		![reading_scores_grade](Resources/reading_scores_grade.png)
 
 
 	- Scores by school spending: Since Thomas High School's spending range is $630-$644, the average math score, the average reading score, the passing math percentage, the passing reading percentage, and the overall passing percentage for the spending range of $630-644 are slightly changed after replacing the ninth graders' math and reading scores. But since the amount is minimal, there is no effect if they are rounded. The summary shows that the average math and reading scores and the passing rates are higher when spending amount per student is lower. 
-	- Spending summary
-	![spending_summary](Resources/spending_summary.png)
+		- Spending summary
+		![spending_summary](Resources/spending_summary.png)
 
 	- Scores by school size: Since Thomas High School's school size falls under "Medium(1000-2000)", the average math score, the average reading score, the passing math percentage, the passing reading percentage, and the overall passing percentage for medium school size are slightly changed after replacing the ninth-grader scores. But since the amount is minimal, there is no effect if they are rounded. The small to medium schools have higher average math and reading scores and higher passing rates than large schools.
-	- Size summary
-	![size_summary](Resources/size_summary.png)
+		- Size summary
+		![size_summary](Resources/size_summary.png)
 
 	- Scores by school type: Since Thomas High School's school type is "Charter", the average math score, the average reading score, the passing math percentage, the passing reading percentage, and the overall passing percentage for "Charter" are slightly changed. But since the amount is minimal, there is no effect if they are rounded. Charter schools have higher average math and reading scores and higher passing rate. 
-	- Type summary
-	![type_summary](Resources/type_summary.png)
+		- Type summary
+		![type_summary](Resources/type_summary.png)
 
 ## Summary
 After reading and math score for the ninth grade at Thomas High School have been replaced with NaN's, the average math score for the ditrict drops by 0.1, the passing math percentage for the district drops by 0.2, the passing reading percentage for the district drops by 0.1, and the overall passing percentage for the district drops by 0.3. The changes would not affect the overall analysis for the school district.
