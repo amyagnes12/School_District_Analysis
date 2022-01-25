@@ -27,8 +27,13 @@ The overall effect is minimal as shown on the table below.
 - How does replacing the ninth-grade scores affect the following:
 	- Math and reading scores by grade: Only the math and reading scores for Thomas High School 9th graders have been updated to NaN (Not a Number). 
 	
-		- Math scores by grade                                        - Reading scores by grade
-		![math_scores_grade](Resources/math_scores_grade.png)         ![reading_scores_grade](Resources/reading_scores_grade.png)
+		- Math scores by grade 
+		                                      
+		![math_scores_grade](Resources/math_scores_grade.png)        
+		
+		 - Reading scores by grade
+		 
+		![reading_scores_grade](Resources/reading_scores_grade.png)
 	
 	- Scores by school spending: Since Thomas High School's spending range is $630-$644, the average math score, the average reading score, the passing math percentage, the passing reading percentage, and the overall passing percentage for the spending range of $630-644 are slightly changed after replacing the ninth graders' math and reading scores. But since the amount is minimal, there is no effect if they are rounded. The summary shows that the average math and reading scores and the passing rates are higher when spending amount per student is lower. 
 		- Spending summary
