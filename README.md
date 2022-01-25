@@ -8,16 +8,16 @@ The school board noticed the evidence of academic dishonesty on the math and rea
 - The district summary shows that there are total 15 schools with 39,170 students and total budget is $24,649,428.00. After replacing the math and reading scores with NaN's for Thomas High School 9th grader, the average math score, the passing math percentage, the passing reading percentage, and the overall passing percentage slightly dropped.
 The overall effect is minimal as shown on the table below.
 
-	-Original district summary
+	- Original district summary
 	![district_summary_before](Resources/district_summary_before_replace.png)
-	-District summary after replacing the math and reading scores with NaNs 
+	- District summary after replacing the math and reading scores with NaNs 
 	![district_summary_after](Resources/district_summary_after_replace.png)
 
 
 - Only the summary for Thomas High School is affected on the per_school_summary_df. As shown on the table below, the average math score, the average reading score, the passing math percentage, the passing reading percentage, and the overall passing percentage are slightly changed after replacing the math and reading scores with NaN's for Thomas High School 9th grader.
-	-Original school summary 
+	- Original school summary 
 	![school_summary_before](Resources/school_summary_before_replace.png)
-	-School summary after replacing the math and reading scores with NaNs
+	- School summary after replacing the math and reading scores with NaNs
 	![school_summary_after](Resources/school_summary_after_replace.png)
 
 - As mentioned the above, Thomas High School's performance is slightly changed after replacing the ninth graders' math and reading scores. However since the amount is minimal, it doesn't affect Thomas High School's performance relative to the other schools. Thomas High School still ranks top 2 out of 15 schools.
